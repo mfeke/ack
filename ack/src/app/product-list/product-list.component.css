@@ -1,0 +1,133 @@
+/* home */
+
+.banner_section {
+  width: 100%;
+  float: left;
+  padding: 90px 0px 100px 0px;
+}
+
+.banner_taital_main {
+  width: 100%;
+  float: left;
+  padding-top: 80px;
+}
+
+.banner_taital {
+  width: 100%;
+  font-size: 90px;
+  color: #252525;
+  font-weight: 800;
+}
+
+.tasty_text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #36454f,;
+  font-weight: bold;
+}
+
+.banner_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #4a4949;
+  margin: 0px;
+}
+
+.btn_main {
+  width: 100%;
+  float: left;
+  padding-top: 40px;
+}
+
+.about_bt {
+  width: 175px;
+  float: left;
+}
+
+.about_bt a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  background-color: #fff;
+  border: #000 solid 1px;
+  color: #000;
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+.about_bt a:hover {
+  color: #fefefd;
+  background-color: #4a4949;
+}
+
+.callnow_bt {
+  width: 175px;
+  float: left;
+}
+
+.callnow_bt a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  background-color: #d48272;
+  color: #fefefd;
+  text-align: center;
+  padding: 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+.callnow_bt a:hover {
+  color: #fefefd;
+  background-color: #4a4949;
+}
+
+.callnow_bt.active a {
+  color: #fefefd;
+  background-color: #4a4949;
+
+}
+
+#banner_slider a.carousel-control-prev {
+  left: -120px;
+  top: 455px;
+}
+
+#banner_slider a.carousel-control-next {
+  right: 0px;
+  top: 400px;
+  left: -120px;
+  color: #fefefd;
+  background-color: #4a4949;
+}
+
+#banner_slider .carousel-control-next,
+#banner_slider .carousel-control-prev {
+  width: 55px;
+  height: 55px;
+  opacity: 1;
+  font-size: 16px;
+  color: #4a4949;
+  background-color: #efefef;
+}
+
+#banner_slider .carousel-control-next:focus,
+#banner_slider .carousel-control-next:hover,
+#banner_slider .carousel-control-prev:focus,
+#banner_slider .carousel-control-prev:hover {
+  color: #fefefd;
+  background-color: #4a4949;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
